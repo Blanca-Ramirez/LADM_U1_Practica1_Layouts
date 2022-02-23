@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:hint="ESCRIBE TU NOMBRE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Domicilio"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/domicilio"
+        android:hint="ESCRIBE TU DOMICILIO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orden"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/curry1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curry" />
+
+    <CheckBox
+        android:id="@+id/hotcake1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot Cake" />
+
+    <CheckBox
+        android:id="@+id/sandwich1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACER PEDIDO"
+        android:id="@+id/rpedido"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

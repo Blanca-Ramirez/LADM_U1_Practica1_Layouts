@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/comida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Hot Cakes"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pancakes"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/catalogo"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANTERIOR"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/catalogo"
+        android:id="@+id/anterior"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:id="@+id/siguiente"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@id/anterior"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>

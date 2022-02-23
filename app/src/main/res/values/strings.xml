@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MUGCAKE BAKERY</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Menú</string>
+    <string name="title_notifications">Pedidos</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">TU PEDIDO\nESTÁ SIENDO\n PROCESADO</string>
+    <string name="title_activity_scrolling">En proceso...</string>
+    <string name="large_text">
+        "Su pedido se ha realizado con éxito:)\n
+        Puedes revisar la información de tu orden dando click sobre el botón"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
